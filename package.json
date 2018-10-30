@@ -1,0 +1,16 @@
+{
+  "name": "quadtree-contours",
+  "version": "1.0.0",
+  "description": "Efficient contour algorithm based on mipmaps and quadtrees",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Mehall <km@kevinmehall.net>",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "babel-runtime": "^6.26.0",
+    "canvas": "^1.6.13",
+    "geotiff": "^1.0.0-beta.6"
+  }
+}
