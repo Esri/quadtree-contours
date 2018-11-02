@@ -1,7 +1,7 @@
 //
 // Generate GeoJSON contours from a GeoTIFF DEM file
 //
-// usage: `node examples/geojson-contour.js in.tiff 10 out.geo.json`
+// usage: `node examples/geotiff-contour.js in.tiff 10 out.geo.json`
 // (assumes that the input file is in WGS84 for GeoJSON; coordinates are transferred directly)
 //
 
