@@ -74,7 +74,7 @@ class ContourMipmap {
     // Bottom mipmap layer is just the raster: at each pixel the minimum and maximum are the same
     this.levels = [{ min: raster, max: raster, width, height, scale: 1 }];
 
-    while (this.levels[0].width > 1) {
+    while (this.levels[0].width > 1 || this.levels[0].height > 1) {
       this.levels.unshift(mipmapReduce(this.levels[0]));
     }
   }
