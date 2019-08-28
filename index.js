@@ -268,7 +268,7 @@ class ContourMipmap {
 
     // Closed rings and any unclosed line strings
     return [...rings, ...fragmentStart.values()]
-      .filter(l => l.length >= minPoints)
+      .filter(l => l.length >= minPoints && l.length >= smoothKernelWidth * 2)
       .map(l => smooth(l, smoothOpts))
   }
 }
@@ -290,8 +290,6 @@ function smooth(line, { kernelWidth = 2, cycles = 2 }) {
   }
 
   const sc = 1.0 / (kernelWidth * 2);
-
-  if (line.length < kernelWidth * 2) return [];
 
   for (let cycle = 0; cycle < cycles; cycle++) {
     let px = 0;
