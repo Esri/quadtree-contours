@@ -102,7 +102,7 @@ class ContourMipmap {
     return levels;
   }
 
-  // Walk the quadtree for a specifiec contour level, and pass quadtree nodes
+  // Walk the quadtree for a specified contour level, and pass quadtree nodes
   // and contour line segments to the callbacks. This is used for visualizing
   // the quadtree; in most cases you should use .contour() instead, which
   // assembles the line segments into lines and rings.
