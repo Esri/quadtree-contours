@@ -1,3 +1,4 @@
+// © 2019 3D Robotics. License: Apache-2.0
 //
 // Generate a series of frames showing the internal quadtree while sweeping
 // through contour levels.

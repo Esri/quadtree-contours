@@ -1,3 +1,4 @@
+// © 2019 3D Robotics. License: Apache-2.0
 //
 // Generate GeoJSON contours from a GeoTIFF DEM file
 //

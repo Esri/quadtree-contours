@@ -1,3 +1,4 @@
+// © 2019 3D Robotics. License: Apache-2.0
 /* eslint no-plusplus: "off", prefer-rest-params: "off" */
 
 const OUTSIDE = 0;
